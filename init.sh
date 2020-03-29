@@ -5,9 +5,4 @@ ln -sf ~/dotfiles/.git-completion.bash ~/.git-completion.bash
 ln -sf ~/dotfiles/.git-prompt.sh ~/.git-prompt.sh
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig    
 ln -sf ~/dotfiles/.ideavimrc ~/.ideavimrc    
-
-
-
-
-
-
+ln -sf ~/dotfiles/.vimrc ~/.vimrc    

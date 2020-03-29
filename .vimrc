@@ -1,5 +1,4 @@
 set clipboard=unnamed
-set multiple-cursors
 map <C-N>  <A-N>
 map <C-P>  <A-P>
 map <C-X>  <A-X>
