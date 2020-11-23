@@ -14,3 +14,18 @@ set PATH $GOPATH/bin $PATH
 ### disable goenv
 set GOENV_DISABLE_GOPATH 1
 
+### ALIAS
+alias ll="ls -la"
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias c-="cd -"
+alias c~="cd ~"
+alias _="sudo"
+alias pwdy="pwd | pbcopy"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /Users/wataruwork/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+
