@@ -1,6 +1,6 @@
 ### GOPATH
-set GOPATH /Users/wataruwork/workspace/go
-set GOROOT /Users/wataruwork/sdk/go1.14.3
+set GOPATH /Users/work/workspace/go
+set GOROOT /Users/work/sdk/go1.14.3
 
 ### PATH
 set PATH /usr/local/bin /usr/sbin $PATH
@@ -26,6 +26,6 @@ alias pwdy="pwd | pbcopy"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/wataruwork/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+eval /Users/work/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
