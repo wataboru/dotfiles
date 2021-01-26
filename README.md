@@ -1,3 +1,3 @@
-# w-sato dotfiles
+# w-sato Dotfiles
 
 This repository is ...
