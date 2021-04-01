@@ -24,8 +24,8 @@ alias c~="cd ~"
 alias _="sudo"
 alias pwdy="pwd | pbcopy"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval /Users/work/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
-
+# github
+bind \cg '__ghq_repository_search'
+if bind -M insert >/dev/null 2>/dev/null
+    bind -M insert \cg '__ghq_repository_search'
+end
